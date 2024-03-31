@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav {
+        
+    padding: 20px;
+    position: fixed;
+    top:0;
+    right: 0;
+    width:calc(100%-200px) ;
+    font-size: 20px;
+}
+
+/*Heading */
+h1{
+text-align: center;
+padding: 100px;
+background-color: #333;
+font-size: 50px;
+margin: 0;
+position: relative;
+font-family: "Orbitron", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+color:#ccc;
+}
+
+h1::before,
+h1::after{
+content:'';
+position: absolute;
+width: 20%;
+height:3px;
+background-color: #ccc;
+top:50%
+}
+
+h1::before{
+left: 20%;
+transform: translateX(-5%);
+}
+
+h1::after{
+right: 20%;
+transform: translate(5%);
+}
+
+nav {
+    padding: 20px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width:calc(100%-200px) ;
+    font-size: 20px;  
+            
+ }
+
+
+
+
+
+ nav ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+        
+        /* styling for navigation linksr*/
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+          
+}
+        
+        /* styling for navigation links on hover*/
+nav ul li a{
+     color: white;
+     text-decoration: none;
+ }
+        
+nav ul li a:hover{
+    color:#ff0000
+    }
+        
+        /* navigation link separatorr*/
+ nav ul li:not(:last-child)::after{
+     content: '';
+     position: absolute;
+     width: 1px;
+     height:100%;
+    background-color: #ccc;
+    top: 0;
+    right:-10px ;
+ }
+
+
+
+/* button  styles*/
+.button{
+    background-color: #A4CE95;
+    border:none;
+    color:black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: dashed;
+    display:block;
+    font-size: 25px;
+    font-weight: bold;
+    width: fit-content;
+    margin:0 auto;
+    margin-top: 7%;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s,color 0.3s, background-color 0.3s;
+}
+
+/* button hover styles*/
+.button:hover{
+    background-color: #7EA874;
+    
+    border-color: #7EA874;
+
+}

@@ -1,0 +1,148 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+    font-weight:400;
+}
+
+
+
+
+header{
+    background-color: #17072b;
+    text-align: center;
+    color:  #FFFFFF;
+    margin: 0;
+    padding: 19px 0;
+}
+
+h1{
+   font-family:"Tahoma";
+   font-weight: 700;
+   font-size: 40px;
+   text-decoration: underline;
+   text-underline-offset: 7px;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    display: inline-block ;
+    color:white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: dashed;
+    font-size: 30px;
+}
+
+h2{
+    margin-left: 3%;
+    margin-top: 2%;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-family:"Tahoma";
+   
+}
+
+p{
+    margin-left: 3%;
+    max-width: 47%;
+    font-size: 18px;
+}
+
+img{
+    margin-left:3% ;
+    width: 55%;
+}
+
+.head{
+    position:absolute;
+    margin-left: 65%;
+    top: 29%;
+    font-family:"Tahoma";
+    font-size: 23px;
+    text-decoration:underline;
+    text-underline-offset: 3px;
+    color: #FFFFFF;
+    background-color: #172d67;
+    padding-right:26.4%;
+    
+    
+    
+   
+}
+
+
+
+.p1{
+    position:absolute;
+    margin-left: 65%;
+    top: 40%;
+    color: #FFFFFF;
+    background-color: #172d67;
+    font-size: 15px;
+    width: calc(100% - 67%);
+    padding-bottom: 23%;
+ 
+   
+}
+
+.p2{
+    position:absolute;
+    margin-left: 65%;
+    top: 45%;
+    color: #FFFFFF;
+    background-color: #172d67;
+    font-size: 15px;
+    width: calc(100% - 67%);
+    
+}
+
+.p3{
+    position:absolute;
+    margin-left: 65%;
+    top: 50%;
+    color: #FFFFFF;
+    background-color: #172d67;
+    font-size: 15px;
+    width: calc(100% - 67%);
+}
+
+.img2{
+    margin-left: 66%;
+    max-width: 24%;
+    margin-top: -16%;
+    position: relative;
+
+}
+
+.img3{
+    margin-left: 80%;
+    max-width:90%;
+    margin-top: -13.2%;
+    position: absolute;
+   
+}
+
+footer{
+    background-color:#8c15e9;
+    position: relative;
+    top: 40px;
+    color: #FFFFFF;
+    text-align: right;
+    margin: 0;
+    
+}

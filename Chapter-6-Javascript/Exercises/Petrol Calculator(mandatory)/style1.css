@@ -1,0 +1,59 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(164, 161, 161);
+    font-family: "Helvetica","sans-serif";
+}
+
+/*styling of petrol section*/
+.petrol{
+    background-color: rgb(47, 53, 173);
+    max-width: 600px;
+    margin: 100px auto;
+    padding:20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    color:white;
+}
+
+/*heading styles*/
+h1{
+    margin-top: 0;
+    text-align: center;
+    color: white;
+   
+}
+
+/*styling of input fields*/
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+/*button styles*/
+button{
+    background-color:#dc3545 ;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color .3s ease;
+    font-weight: bold;
+    
+}
+/*button hover effect*/
+button:hover{
+    background-color: #c82333;
+}
+
+
